@@ -10,6 +10,9 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         .header {
             background-color: #4CAF50;
@@ -19,6 +22,7 @@
         }
         .container {
             padding: 20px;
+            flex: 1;
         }
         .section {
             margin-bottom: 20px;
@@ -28,9 +32,11 @@
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            flex-shrink: 0;
+        }
+        .footer a {
+            color: white; /* White color for better readability */
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -48,7 +54,7 @@
             <p><strong>Abstract registration deadline:</strong> July 23 2024</p>
             <p><strong>Submission deadline:</strong> July 27 2024</p>
             <p><strong>Workshop day:</strong> August 15 2024</p>
-            <p><strong>Topics:</strong> fostering cross sector partnerships emerging technologies for social impact designing sustainable business models equitable access to digital resources</p>
+            <p><strong>Topics:</strong> fostering cross-sector partnerships, emerging technologies for social impact, designing sustainable business models, equitable access to digital resources</p>
         </div>
         <div class="section">
             <h3>About the Workshop</h3>
@@ -72,7 +78,7 @@
         <div class="section">
             <h3>List of Topics</h3>
             <ul>
-                <li>ICT for Global Development (e.g. AI Blockchain digital twins other emergent digital technologies)</li>
+                <li>ICT for Global Development (e.g., AI Blockchain digital twins other emergent digital technologies)</li>
                 <li>Social Entrepreneurship for Global Development</li>
                 <li>Fostering Cross-sector Partnerships</li>
                 <li>Leveraging Emerging Technologies for Social Impact</li>
@@ -84,22 +90,19 @@
             <ul>
                 <li><strong>Co-Chairs and Program Committee</strong></li>
                 <ul>
-                    <li>Jolanta Kowal University of Wrocław Institute of Psychology Poland e-mail: jolanta.kowal@uwr.edu.pl</li>
-                    <li>Piotr Soja Krakow University of Economics Krakow Poland e-mail: eisoja@cyf-kr.edu.pl</li>
-                    <li>Paulo Rupino da Cunha CISUC DEI University of Coimbra Coimbra Portugal e-mail: rupino@dei.uc.pt</li>
+                    <li>Jolanta Kowal, University of Wrocław, Institute of Psychology, Poland, e-mail: jolanta.kowal@uwr.edu.pl</li>
+                    <li>Piotr Soja, Krakow University of Economics, Krakow, Poland, e-mail: eisoja@cyf-kr.edu.pl</li>
+                    <li>Paulo Rupino da Cunha, CISUC DEI, University of Coimbra, Coimbra, Portugal, e-mail: rupino@dei.uc.pt</li>
                 </ul>
                 <li><strong>Secretary</strong></li>
                 <ul>
-                    <li>Philip F. Musa University of Alabama at Birmingham Collat School of Business USA e-mail: musa@uab.edu</li>
+                    <li>Philip F. Musa, University of Alabama at Birmingham, Collat School of Business, USA, e-mail: musa@uab.edu</li>
                 </ul>
             </ul>
         </div>
-        <div class="section">
-            <h3>Contact</h3>
-            <p>All questions about submissions should be emailed to <a href="mailto:jolakowal@gmail.com">jolakowal@gmail.com</a> or <a href="mailto:jolanta.kowal@uwr.edu.pl">jolanta.kowal@uwr.edu.pl</a></p>
-        </div>
     </div>
     <div class="footer">
+        <p>All questions about submissions should be emailed to <a href="mailto:jolakowal@gmail.com">jolakowal@gmail.com</a> or <a href="mailto:jolanta.kowal@uwr.edu.pl">jolanta.kowal@uwr.edu.pl</a></p>
         <p>© 2024 SIG GLOBDEV Workshop. All rights reserved.</p>
     </div>
 </body>
