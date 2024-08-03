@@ -12,6 +12,12 @@ header {
     color: #fff;
     padding: 1em 0;
     text-align: center;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
 }
 
 main {
@@ -49,4 +55,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-0
